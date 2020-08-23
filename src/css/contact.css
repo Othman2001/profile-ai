@@ -1,0 +1,9 @@
+.contact{
+    background-color: #121212;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+.contact-from{
+    padding: 160px !important;
+}
