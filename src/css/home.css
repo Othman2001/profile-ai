@@ -1,0 +1,38 @@
+.home{
+
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+color: #fff;
+height: 100vh;
+background-color: #121212;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+.home_main{
+margin-top: 20%;
+line-height: 2;
+
+}
+.home_text{
+    position: relative;
+    top: 23%;
+}
+.home_text span {
+   color:#1ca8ff;
+
+}
+.button{
+    background-color: #1ca8ff;
+    border: none;
+    font-size: 25px;
+  
+}
+
+.button:hover{
+    color: #fff;
+    background-color: black;
+}

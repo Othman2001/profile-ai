@@ -1,0 +1,62 @@
+.side {
+   position: fixed;
+    color: white;
+    background-color:#121217;
+    z-index: 10;
+width: 100vw;
+height: 100vh;
+font-size: 25px;
+z-index: 1000;
+}
+.sidebar{
+
+}
+.side h3{
+    color:#1ca8ff;
+}
+.display{
+    width: 0;
+    display: none;
+}
+.but{
+     transition: 1ms ease-in-out;
+     animation-name: hi;
+     animation-duration: 1000ms;
+     animation-iteration-count: infinite;
+     animation-timing-function: ease-in-out;
+    
+     color: #333;
+     font-size: 15px;
+     -webkit-transition: -webkit-transform 1s;
+}
+.but:hover{
+    transition: 1ms ease-in-out;
+    background-color: black;
+    color: #fff; 
+   
+}
+@keyframes hi {
+  from{
+      rotate: (0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateZ(0);
+  }
+}
+.but img{
+    width: 40px !important;
+    border: none;
+}
+@media screen and (max-width: 700px) {
+    .side {
+      text-align: center;
+      float: none;
+      width: 100%;
+      z-index: 10;
+      background-color:#121212!important;
+    }
+  }
+  .sid{
+
+  
+  }

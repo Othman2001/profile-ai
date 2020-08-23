@@ -1,0 +1,37 @@
+.navbar {
+    margin-right: 20px !important;
+    display: grid !; 
+}
+.nav-link{
+    color: #fff;
+    font-weight: 600;
+    margin-left: 40px;
+}.nav-link:hover{
+    color:  #1ca8ff
+    ;
+}
+.navbar-brand{
+    position: relative !important;
+    top: 49px !important;
+    color: #1ca8ff !important ;
+}
+.navbar-brand  span{
+ color:  #4717f6
+ ;
+}
+.navbar-toggler-icon {
+    color: #fff !important;
+}
+.navbar-toggler{
+    color: #fff !important;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;..");
+}
+.white{
+    color: black !important;
+    background-color: white !important;
+    background-image: url(./878712_list_512x512.png);
+
+
+}

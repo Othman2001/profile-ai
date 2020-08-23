@@ -1,0 +1,104 @@
+.work {
+    background-color: #121212;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+img{
+    width: 70% !important;
+}
+image {
+    display: block;
+    width:70% !important;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  .container:hover image{
+    transform: scale(1.4);
+  }
+  .cart{
+      position: relative;
+  }
+.intext{
+    position: absolute;
+    top: 40px;
+    left: 22%;
+    bottom: 0;
+    right: 5%;
+   
+}
+  .cont {
+    position: relative;
+    width: 50%;
+  }
+  .header{
+      color: #fff;
+  }
+ 
+  span {
+      color: #1ca8ff;
+  }
+.buto{
+    background-color: #1ca8ff;
+    color: #121212;
+    border: 1px solid #1ca8ff;
+    padding: 15px 32px;
+    transition: 1ms ease-in;
+
+}
+.buto:hover{
+    background-color: #fff;
+    color: #1ca8ff;
+}
+.over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    display: none;
+}
+hr{
+    width: 8%;
+    color: #1ca8ff;
+}
+.cart:hover .cartimage{
+    transform: scale(1.1);
+}
+.cart {
+    
+}
+.cart:hover .over{
+    display: inline-block;
+    background-color: rgba(87, 93, 148, 0.3);
+    background: rgba(87, 93, 148, 0.3);
+    color: rgba(87, 93, 148, 0.3);
+}
+.title{
+    margin-top: 40px;
+}
+.header{
+    padding: 60px;
+}
+.work_projects{
+  padding: 60px;
+
+}
