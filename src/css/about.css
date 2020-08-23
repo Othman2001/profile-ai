@@ -1,0 +1,128 @@
+
+.about{
+color: #fff;
+height: 100vh;
+background-color: #121212;
+font-family: 'Roboto Mono' !important;
+overflow: auto;
+}
+.about span {
+  color: #1ca8ff;
+}
+
+.title h2{
+    font-size: 40px
+    !important;
+    letter-spacing: 42px !important;
+    text-align: center;
+    text-shadow:
+    4px -1px 0 #333, -1px -1px 0 #1ca8ff, -1px 1px 0 #1ca8ff, 1px 1px 0 #fff;
+    animation-name: move;
+    animation-duration: 1000ms;
+   animation-iteration-count: 3;
+    position: relative;
+ animation-timing-function: linear;
+ position: relative;
+top: 30px;
+margin-top: 7%;
+margin-bottom: 2%;
+
+}
+@keyframes move {
+ 0%{right:0px; left: 30px; }
+ 25%{right:40px; left: 80px; }
+ 50%{right: 80px; left: 120px;}
+ 75%{right: 100px; left: 220px;}
+ 100%{right:0px; left:0px;}
+}
+
+@keyframes liner {
+  0% {transform: rotateX(0deg);}
+  50%{   transform: rotateX(150deg);}
+  100%{transform: rotatex(0deg);}
+}
+
+.about_text hr{
+  width: 10%;
+  color: #1ca8ff;
+}
+img{
+  width: 10% !important;
+}
+@media only screen and (max-width: 600px) {
+ .side-text {
+   display: none;
+ }
+}
+.about_main {
+  position: relative;
+padding: 50px;
+}
+.about_main p {
+  font-size: 15px !important;
+  text-align: start;
+
+
+}
+.about_main hr{
+  width: 10%;
+  color: #1ca8ff;
+ position: relative;
+ bottom: 10px;
+ 
+}.about_main span {
+  color: #1ca8ff
+}
+.profile{
+  border-radius: 90px;
+  width: 170px !important;
+}
+.about_text{
+  font-weight: 100;
+  letter-spacing: 3px;
+  padding-left: 30px;
+width: 70%;
+line-height: 1.8;
+}
+.about_skills{
+  padding-left: 10px;
+  font-size: 20px !important;
+}
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+.about {
+overflow: scroll;
+}
+.about_text{
+  letter-spacing: 0;
+  width: 100%;
+  line-height: 1;
+  font-size: 25px;
+}
+}
+.ab {
+  position: relative;
+  animation-name:  move;
+  animation-duration: 1000ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 3;
+  animation-delay: 3s;
+}
+@keyframes upDonw{
+  0%{top:0px; bottom: 0px;};
+  50%{top:30px; bottom: 10px;}
+  100%{top:0px; bottom: 0px;}
+}
+.skills hr{
+  width: 70px;
+  color: #1ca8ff;
+  position: relative;
+  bottom: 10px;
+}
+.skills{
+  padding-top: 4%;
+}
+.skills p {
+  font-weight: 700;
+  font-size: 25px;
+}
